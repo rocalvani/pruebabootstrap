@@ -11,6 +11,7 @@
 
 .bar {
     background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
 }
 
 .navbar-brand {
@@ -27,6 +28,11 @@
     background-color: rgba(255, 255, 255, 0.3);
     border: solid 1px white;
     font-size: 1.2vh;
+    --bs-dropdown-link-active-bg: transparent;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
 }
 
 /* MAIN */
@@ -36,6 +42,10 @@
 }
 
 /* INDEX */
+
+.carousel-control-next, .carousel-control-prev {
+    z-index: 0;
+}
 
 .intro{
     margin-top: 15vh;
@@ -129,6 +139,15 @@ h1 {
 
 .comment {
     border: 1px solid white;
+}
+
+.form-label {
+    font-size: 1.3vh;
+}
+
+.form-select {
+    border: 1px solid white;
+    background-color:rgba(255, 255, 255, 0.3)
 }
 
 /* ABOUT */
@@ -269,3 +288,12 @@ h3 {
     margin-top: 7vh;
     font-size: 1.2vh;
 }
+
+/* RESPONSIVE */
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}}
