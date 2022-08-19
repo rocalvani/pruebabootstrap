@@ -69,6 +69,26 @@
         <h1>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, culpa!
         </h1>
+        <!-- Button trigger modal -->
+<button type="button" class="btn mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Quiero sumarme al club
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">¿estás seguro de que querer hacer eso?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-bs-dismiss="modal">no</button>
+        <button type="button" class="btn">si, re</button>
+      </div>
+    </div>
+  </div>
+</div>
         <!-- CARDS -->
       <div class="row">
         <div class="card" style="width: 18rem;">
@@ -116,7 +136,7 @@
               <label for="exampleInputEmail1" class="form-label">Email</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email" required>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn">Submit</button>
           </form>
         </div>
       </div>
