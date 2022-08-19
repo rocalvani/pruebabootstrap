@@ -56,8 +56,8 @@ h1 {
 .card {
     padding: 0;
     background-color: rgba(255, 255, 255, 0.246);
-    border: 1px solid white;
-    border-radius: 1vh;
+    border: 0;
+    border-radius: 0vh;
 }
 
 .card-img-top {
@@ -72,6 +72,10 @@ h1 {
 .card-title {
     font-family: prata;
     text-transform: uppercase;
+}
+
+.card-text {
+    font-size: 1.4vh;
 }
 
 .btn {
