@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.navbar {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+    padding: 2vh;
+}
+
+.bar {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand {
+    font-family: prata;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.navbar-nav {
+    text-transform: uppercase;
+    font-size: 1.2vh;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 1px white;
+    font-size: 1.2vh;
+}
+
+/* MAIN */
+
+.main {
+    background-color: rgb(231, 230, 224);
+}
+
+/* INDEX */
+
+.intro{
+    margin-top: 15vh;
+    text-align:center;
+}
+
+h1 {
+    font-family: prata;
+    text-transform: uppercase;
+    font-size: 5vh;
+}
+
+.row {
+    margin-top: 7vh;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.246);
+    border: 1px solid white;
+    border-radius: 1vh;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-body {
+    text-align: left;
+    padding: 4vh 2vh 2vh 2vh;
+}
+
+.card-title {
+    font-family: prata;
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: white;
+    border: 0;
+    color: black;
+    text-transform:uppercase; 
+    width: 100%;
+    text-align:left;
+    padding: 1.5vh;
+    border-radius: 0.5vh;
+    font-size: 1.1vh;
+    letter-spacing: .3vh;
+}
+
+.btn:hover {
+    background-color:rgb(213, 210, 197);
+    color:white;
+    transition: .3;
+}
+
+.contacto {
+    text-align:left;
+}
+
+.contacto h2 {
+    font-size: 4vh;
+}
+
+.form {
+    text-align:left;
+    width: 95%;
+    margin:auto;
+}
+
+.form-control {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+/* CONTACTO */
+
+.contacta h2 {
+    font-family: prata;
+    text-transform: uppercase;
+    letter-spacing: 1vh;
+}
+
+.comment {
+    border: 1px solid white;
+}
+
+/* ABOUT */
+
+.a-header{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.a-header img {
+    width: 100%;
+}
+
+.info {width: 30%;}
+
+h3 {
+    font-family: prata;
+    text-transform:uppercase;
+}
+
+.bajada {
+    font-size: 1.8vh;
+}
+
+.micro {
+    font-size: 1.4vh;
+}
+
+.detalle {
+    font-size: 1.2vh;
+    list-style-type: none;
+}
+
+.detalle li {
+    margin-bottom: 2vh;
+}
+
+/* FAQ */
+
+.min {
+    min-height: 75vh;
+}
+
+.faq {
+    margin-top: 15vh;
+}
+
+.preguntas ul {
+    list-style-type: none;
+}
+
+.preguntas li {
+    background-color:rgb(224, 221, 210);
+    margin: .4vh;
+    padding: 1vh;
+    font-size: 1.4vh;
+    text-transform:uppercase;
+    transition: 1s;
+}
+
+.preguntas li:hover {
+    background-color:rgb(172, 170, 160);
+    transition: 1s;
+}
+
+.preguntas a {
+    color: white;
+    text-decoration: none;
+}
+
+.accordion-button:not(.collapsed), .accordion-button {
+    background-color: transparent;
+    border-bottom: solid 1px white;
+    color: black;
+    font-family: prata;
+    text-transform: uppercase;
+}
+
+.accordion-button::after {
+    background-image: url(http://placekitten.com/16/16)
+}
+
+.accordion-button:not(.collapsed)::after {background-image: url(http://placekitten.com/17/17)}
+
+.accordion-item {
+    background-color: transparent;
+    border: 0;
+}
+
+.accordion-body {
+    padding: 2vh 3vh 5vh 3vh;
+    font-size: 1.4vh;
+    line-height: auto;
+}
+
+.accordion-body strong {
+    color:red;
+}
+
+/* STORE */
+
+.cart {
+    margin-top: 15vh;
+}
+
+.cart .card {
+    background-color: transparent;
+    border:0;
+    margin: 1vh;
+    border-radius: 0;
+}
+
+.cart .btn {
+    padding: 1vh;
+    background-color:rgb(213, 210, 197);
+    width: auto;
+}
+
+.cart .btn:hover {
+    background-color:rgb(172, 170, 160);
+}
+
+.cart .card-body {
+    padding: 1vh 0vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: 1vh;
+    margin-top: 7vh;
+    font-size: 1.2vh;
+}
